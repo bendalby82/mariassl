@@ -18,10 +18,13 @@ Pulls the latest OpenSSL and MariaDB containers.
 Creates keys and certificates.  
   
 **03-setup-mariadb-server.sh**  
-Creates a new container running Maria DB, and creates a new user.  
+Creates a new container running Maria DB.
   
-**04-connect-via-client-container.sh**  
+**04-create-test-user.sh**  
+Creates a new user who must connect securely.  
+
+**05-connect-via-client-container.sh**  
 Creates a new ephemeral container running Maria DB, and connects to the server using `mysql`.
-  
+
 ## Usage  
 Type `\s` at the MySQL command prompt after running 04-connect-via-client-container.sh to verify SSL is being used.  
