@@ -10,7 +10,7 @@ Docker (tested on version 1.12.3)
 # Instructions for Use  
   
 ## Setup  
-Run the four scripts in this repository in order.  
+Run the scripts in this repository in order.  
    
 **01-pull-containers.sh**  
 Pulls the latest OpenSSL and MariaDB containers.  
