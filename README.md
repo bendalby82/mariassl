@@ -29,3 +29,6 @@ Creates a new ephemeral container running Maria DB, and connects to the server u
 
 ## Usage  
 Type `\s` at the MySQL command prompt after running 04-connect-via-client-container.sh to verify SSL is being used.  
+  
+## Known Issues
+**04-create-test-user.sh** will fail if you run it before the MySQL container is fully up and running. TODO is to work out how to check the new server is available.  
