@@ -32,3 +32,6 @@ Type `\s` at the MySQL command prompt after running 04-connect-via-client-contai
   
 ## Known Issues
 **04-create-test-user.sh** will fail if you run it before the MySQL container is fully up and running. TODO is to work out how to check the new server is available.  
+
+## Credits  
+Based on an article by Maarten Kossen - [Getting Started with MySQL over SSL](https://lowendbox.com/blog/getting-started-with-mysql-over-ssl/)
