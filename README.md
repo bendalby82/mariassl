@@ -16,16 +16,23 @@ Run the scripts in this repository in order.
 Pulls the latest OpenSSL and MariaDB containers.  
   
 **02-create-certificates.sh**  
-Creates keys and certificates.  
+Creates a certificate authority and sign one certificate.  
   
 **03-setup-mariadb-server.sh**  
-Creates a new container running Maria DB.
+Creates a new container running Maria DB server.
   
 **04-create-test-user.sh**  
 Creates a new user who must connect securely.  
 
 **05-connect-via-client-container.sh**  
-Creates a new ephemeral container running Maria DB, and connects to the server using `mysql`.
+Creates a new ephemeral container running Maria DB client, and connects to the server using `mysql`.
+
+**06-create-new-certificates.sh**
+Generates a new certificate authority and sign a new certificate
+
+**07-connect-via-client-container-wrong-cert.sh**
+Creates a new ephemeral container running Maria DB cient, and try to connect using the newly created certificate
+
 
 ## Usage  
 Type `\s` at the MySQL command prompt after running 04-connect-via-client-container.sh to verify SSL is being used.  
