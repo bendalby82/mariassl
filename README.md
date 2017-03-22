@@ -27,11 +27,11 @@ Creates a new user who must connect securely.
 **05-connect-via-client-container.sh**  
 Creates a new ephemeral container running Maria DB client, and connects to the server using `mysql`.
 
-**06-create-new-certificates.sh** 
+**06-create-new-certificates.sh**  
 Generates a new certificate authority, and signs a new certificate.
 
-**07-connect-via-client-container-wrong-cert.sh**
-Creates a new ephemeral container running Maria DB cient, and tries to connect using the newly created certificate.
+**07-connect-via-client-container-wrong-cert.sh**  
+Creates a new ephemeral container running Maria DB client, and tries to connect using the newly created certificate.
 
 
 ## Usage  
