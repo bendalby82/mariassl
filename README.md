@@ -16,7 +16,7 @@ Run the scripts in this repository in order.
 Pulls the latest OpenSSL and MariaDB containers.  
   
 **02-create-certificates.sh**  
-Creates a certificate authority and sign one certificate.  
+Creates a certificate authority and signs one certificate.  
   
 **03-setup-mariadb-server.sh**  
 Creates a new container running Maria DB server.
